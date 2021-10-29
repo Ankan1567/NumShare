@@ -1,0 +1,6 @@
+user-agent: *
+Disallow: /Support Files/underdevelopment.js
+Disallow: /index.css
+Disallow:/Support Files/UnderDevelopment.html
+Allow: /Girls Number/index.html
+Disallow:/Support Files/404.html

@@ -1,0 +1,101 @@
+/* this is start of navigation css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(238, 234, 234);
+}
+nav{
+    background-color: rgb(173, 80, 80);
+    border: 2px dotted pink;
+    border-radius: 10px 20px;
+    position: sticky;
+}
+#headname{
+    font-size: xx-large;
+}
+#subname{
+    color: aliceblue;
+    font-size: x-large;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    display: inline-block;
+    margin: 1%;
+    border: 2px dotted #000;
+    border-radius: 15px;
+}
+li a{
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+@media screen and (max-width:400px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+/* this is contain content  */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#first{
+    position: relative;
+    top: 5vh;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color:aqua;
+    width: 48%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dotted red;
+    border-radius: 15px;
+}
+#first a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+#second{
+    position: relative;
+    top: 5vh;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color:aqua;
+    width: 48%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dotted red;
+    border-radius: 15px;
+}
+#second a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+footer{
+    background-color: burlywood;
+    text-align: center;
+    border: 2px dotted black;
+    border-radius: 15px;
+    position: relative;
+    top: 80vh;
+}
